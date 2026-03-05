@@ -24,4 +24,6 @@ export function useGeolocation() {
       },
     );
   }
+
+  return { isLoading, position, error, getPosition };
 }
